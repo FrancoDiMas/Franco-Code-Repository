@@ -90,4 +90,4 @@ def publicFiles(path):
     return render_template(path)
 
 if __name__ == '__main__':
-    app.run(None, 3000, True)
+    app.run()
